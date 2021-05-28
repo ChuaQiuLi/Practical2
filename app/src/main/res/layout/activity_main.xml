@@ -111,7 +111,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15sp"
                     android:layout_marginLeft="15sp"
-                    android:text="4) Greenland Dog"
+                    android:text="4) Husky Jack"
                     android:textSize="28sp" />
             </LinearLayout>
         </LinearLayout>
