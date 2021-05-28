@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Practical2</string>
+    <string name="different_types_of_animal_that_start_with_the_letter_h">Different Types of Animal that start with the letter H</string>
+    <string name="_1_hagfish">1) HagFish</string>
+    <string name="hagfish">Hagfish</string>
+    <string name="_2_hare">2) Hare</string>
+    <string name="hare">hare</string>
+    <string name="_3_havanese">3) Havanese</string>
+    <string name="havanese">havanese</string>
+    <string name="german_shepherd_guide">German Shepherd Guide</string>
+</resources>
