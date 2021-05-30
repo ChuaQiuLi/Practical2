@@ -1,11 +1,27 @@
 <resources>
     <string name="app_name">Practical2</string>
-    <string name="different_types_of_animal_that_start_with_the_letter_h">Different Types of Animal that start with the letter H</string>
-    <string name="_1_hagfish">1) HagFish</string>
-    <string name="hagfish">Hagfish</string>
-    <string name="_2_hare">2) Hare</string>
-    <string name="hare">hare</string>
-    <string name="_3_havanese">3) Havanese</string>
     <string name="havanese">havanese</string>
     <string name="german_shepherd_guide">German Shepherd Guide</string>
+    <string name="_1_german_shepherd_guide">1) German Shepherd Guide</string>
+    <string name="picgermanshepherd">picGermanShepherd</string>
+    <string name="pichuskyjack">picHuskyJack</string>
+    <string name="picgoldendoodle">picGoldenDoodle</string>
+    <string name="_2_german_sheppit">2) German Sheppit</string>
+    <string name="different_types_of_dogs_names_that_start_with_the_letter_g_and_h">Different types of dogs names that start with the letter G and H</string>
+    <string name="_5_greater_swiss_mountain_dog">5) Greater Swiss Mountain Dog</string>
+    <string name="_4_golden_retriever">4) Golden Retriever</string>
+    <string name="_6_havanese">6) Havanese</string>
+    <string name="_7_husky_jack">7) Husky Jack</string>
+    <string name="_8_havashire">8) Havashire</string>
+    <string name="_9_harrier">9) Harrier</string>
+    <string name="_10_huskador">10) Huskador</string>
+    <string name="_3_goldendoodle">3) Goldendoodle</string>
+    <string name="back_to_home_page">BACK TO HOME PAGE</string>
+    <string name="picgermansheppit">picGermanSheppit</string>
+    <string name="picgoldenretriever">picGoldenRetriever</string>
+    <string name="pichavanese">picHavanese</string>
+    <string name="pichavshire">picHavshire</string>
+    <string name="picharrier">picHarrier</string>
+    <string name="pichuskador">picHuskador</string>
+    <string name="picgreaterswiss">picGreaterSwiss</string>
 </resources>
