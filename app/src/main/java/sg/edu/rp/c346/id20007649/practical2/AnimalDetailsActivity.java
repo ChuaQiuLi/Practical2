@@ -1,19 +1,25 @@
 package sg.edu.rp.c346.id20007649.practical2;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.TypedValue;
+import android.view.ContextMenu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
+
 
 public class AnimalDetailsActivity extends AppCompatActivity {
 
     TextView tvDisplay;
-    Button btnBackPage;
+    Button btnHomePage;
+    Button btnLinkPage;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +27,11 @@ public class AnimalDetailsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_animal_details);
 
         tvDisplay = findViewById(R.id.tvDisplay);
-        btnBackPage = findViewById(R.id.btnBackButton);
+        btnHomePage = findViewById(R.id.btnHomeButton);
+        btnLinkPage = findViewById(R.id.btnLinkPage);
+
+        registerForContextMenu(tvDisplay);
+
 
 
         Intent intentReceived = getIntent();
@@ -31,7 +41,7 @@ public class AnimalDetailsActivity extends AppCompatActivity {
         String lifespan = intentReceived.getStringExtra("lifespan");
         String information = intentReceived.getStringExtra("information");
         String link = intentReceived.getStringExtra("link");
-
+        String url = intentReceived.getStringExtra("url");
 
 
 
@@ -41,26 +51,66 @@ public class AnimalDetailsActivity extends AppCompatActivity {
         display += "\nDescription : " + description;
         display += "\nLifespan : " + lifespan;
         display += "\nInformation : " + information;
-        display +="\nLinks : " + link;
+        display += "\nFor more information : " + link;
+
 
         tvDisplay.setText(display);
 
-        btnBackPage.setOnClickListener(new View.OnClickListener() {
+
+
+        btnHomePage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                finish();
+                onBackPressed();
+
+
+            }
+        });
+
+        btnLinkPage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intents = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+
+                startActivity(intents);
+
+
             }
         });
 
 
+    }
+
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, v, menuInfo);
 
 
+        menu.add(0, 0, 0, "Increase font size");
+        menu.add(0,1,1,"Decrease font size");
 
 
+    }
 
 
+    @Override
+    public boolean onContextItemSelected(@NonNull MenuItem item) {
+
+        if (item.getItemId() == 0) {
+
+            tvDisplay.setTextSize(0, tvDisplay.getTextSize() + 2.0f);
+
+        }
+
+        else{
+
+            tvDisplay.setTextSize(0, tvDisplay.getTextSize() - 2.0f);
 
 
+        }
+
+        return super.onContextItemSelected(item);
     }
 }

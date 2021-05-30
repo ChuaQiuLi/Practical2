@@ -9,11 +9,19 @@
         android:id="@+id/tvDisplay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Display Information" />
+        android:hint="@string/display_information"
+        android:textColor="#000000" />
 
     <Button
-        android:id="@+id/btnBackButton"
+        android:id="@+id/btnLinkPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/click_here_for_more_information" />
+
+    <Button
+        android:id="@+id/btnHomeButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/back_to_home_page" />
+
 </LinearLayout>

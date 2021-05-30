@@ -16,7 +16,6 @@
     <string name="_9_harrier">9) Harrier</string>
     <string name="_10_huskador">10) Huskador</string>
     <string name="_3_goldendoodle">3) Goldendoodle</string>
-    <string name="back_to_home_page">BACK TO HOME PAGE</string>
     <string name="picgermansheppit">picGermanSheppit</string>
     <string name="picgoldenretriever">picGoldenRetriever</string>
     <string name="pichavanese">picHavanese</string>
@@ -24,4 +23,7 @@
     <string name="picharrier">picHarrier</string>
     <string name="pichuskador">picHuskador</string>
     <string name="picgreaterswiss">picGreaterSwiss</string>
+    <string name="display_information">Display Information</string>
+    <string name="back_to_home_page">BACK TO HOME PAGE</string>
+    <string name="click_here_for_more_information">Click here for more information</string>
 </resources>

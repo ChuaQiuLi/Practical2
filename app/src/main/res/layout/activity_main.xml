@@ -70,6 +70,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="210sp"
+                        android:layout_marginBottom="270sp"
                         android:text="@string/_4_golden_retriever"
                         android:textColor="#000000"
                         android:textSize="20sp" />
@@ -78,7 +79,7 @@
                         android:id="@+id/tvGreaterSwissMountain"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="160sp"
+                        android:layout_marginBottom="160sp"
                         android:text="@string/_5_greater_swiss_mountain_dog"
                         android:textColor="#000000"
                         android:textSize="20sp" />
@@ -87,7 +88,7 @@
                         android:id="@+id/tvHavanese"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="160sp"
+                        android:layout_marginTop="120sp"
                         android:text="@string/_6_havanese"
                         android:textColor="#000000"
                         android:textSize="20sp" />
@@ -105,7 +106,8 @@
                         android:id="@+id/tvHavashire"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="160sp"
+                        android:layout_marginTop="220sp"
+                        android:layout_marginBottom="210sp"
                         android:text="@string/_8_havashire"
                         android:textColor="#000000"
                         android:textSize="20sp" />
@@ -114,7 +116,7 @@
                         android:id="@+id/tvHarrier"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="160sp"
+                        android:layout_marginBottom="210sp"
                         android:text="@string/_9_harrier"
                         android:textColor="#000000"
                         android:textSize="20sp" />
@@ -123,7 +125,6 @@
                         android:id="@+id/tvHuskador"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="160sp"
                         android:text="@string/_10_huskador"
                         android:textColor="#000000"
                         android:textSize="20sp" />
