@@ -7,7 +7,6 @@
     <string name="pichuskyjack">picHuskyJack</string>
     <string name="picgoldendoodle">picGoldenDoodle</string>
     <string name="_2_german_sheppit">2) German Sheppit</string>
-    <string name="different_types_of_dogs_names_that_start_with_the_letter_g_and_h">Different types of dogs names that start with the letter G and H</string>
     <string name="_5_greater_swiss_mountain_dog">5) Greater Swiss Mountain Dog</string>
     <string name="_4_golden_retriever">4) Golden Retriever</string>
     <string name="_6_havanese">6) Havanese</string>
@@ -26,4 +25,7 @@
     <string name="display_information">Display Information</string>
     <string name="back_to_home_page">BACK TO HOME PAGE</string>
     <string name="click_here_for_more_information">Click here for more information</string>
+    <string name="_10_facts_about_dogs_that_start_with_letter_g_and_h">10 FACTS ABOUT DOGS THAT START WITH LETTER G AND H</string>
+    <string name="press_on_the_name_of_the_animal_you_know_to_know_more_about">Press on the name of the animal you know to know more about</string>
+    <string name="facts_about_the_animal">FACTS ABOUT THE ANIMAL</string>
 </resources>

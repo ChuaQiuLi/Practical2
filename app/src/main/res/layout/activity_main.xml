@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2196F3"
     android:orientation="vertical">
 
 
@@ -20,12 +21,23 @@
                 android:id="@+id/tvTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginStart="25sp"
-                android:layout_marginLeft="25sp"
-                android:text="@string/different_types_of_dogs_names_that_start_with_the_letter_g_and_h"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/_10_facts_about_dogs_that_start_with_letter_g_and_h"
                 android:textColor="#000000"
                 android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="15sp"
+                android:text="@string/press_on_the_name_of_the_animal_you_know_to_know_more_about"
+                android:textColor="#000000"
+
+                android:textSize="18sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -35,7 +47,7 @@
 
                 <LinearLayout
                     android:layout_width="221dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="2510dp"
                     android:orientation="vertical"
                     tools:layout_marginLeft="40sp">
 
@@ -45,13 +57,15 @@
                         android:layout_height="wrap_content"
                         android:text="@string/_1_german_shepherd_guide"
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:fontFamily="sans-serif-condensed-medium" />
 
                     <TextView
                         android:id="@+id/tvGermanSheppit"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="160sp"
+                        android:layout_marginTop="240sp"
+                        android:fontFamily="sans-serif-condensed-medium"
                         android:text="@string/_2_german_sheppit"
                         android:textColor="#000000"
                         android:textSize="20sp" />
@@ -63,77 +77,84 @@
                         android:layout_marginTop="240sp"
                         android:text="@string/_3_goldendoodle"
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:fontFamily="sans-serif-condensed-medium" />
 
                     <TextView
                         android:id="@+id/tvGoldenRetriever"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="210sp"
-                        android:layout_marginBottom="270sp"
+                        android:layout_marginTop="180sp"
                         android:text="@string/_4_golden_retriever"
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:fontFamily="sans-serif-condensed-medium" />
 
                     <TextView
                         android:id="@+id/tvGreaterSwissMountain"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="160sp"
+                        android:layout_marginTop="240sp"
                         android:text="@string/_5_greater_swiss_mountain_dog"
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:fontFamily="sans-serif-condensed-medium" />
 
                     <TextView
                         android:id="@+id/tvHavanese"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="120sp"
+                        android:layout_marginTop="220sp"
                         android:text="@string/_6_havanese"
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:fontFamily="sans-serif-condensed-medium" />
 
                     <TextView
                         android:id="@+id/tvHuskyJack"
                         android:layout_width="214dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="160sp"
+                        android:layout_marginTop="220sp"
                         android:text="@string/_7_husky_jack"
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:fontFamily="sans-serif-condensed-medium" />
 
                     <TextView
                         android:id="@+id/tvHavashire"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="220sp"
-                        android:layout_marginBottom="210sp"
                         android:text="@string/_8_havashire"
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:fontFamily="sans-serif-condensed-medium" />
 
                     <TextView
                         android:id="@+id/tvHarrier"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="210sp"
+                        android:layout_marginTop="240sp"
                         android:text="@string/_9_harrier"
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:fontFamily="sans-serif-condensed-medium" />
 
                     <TextView
                         android:id="@+id/tvHuskador"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="31dp"
+                        android:layout_marginTop="240sp"
                         android:text="@string/_10_huskador"
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:fontFamily="sans-serif-condensed-medium" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="587dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="585dp"
+                    android:layout_height="2543dp"
                     android:orientation="vertical">
 
                     <ImageView

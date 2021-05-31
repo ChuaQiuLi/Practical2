@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class AnimalDetailsActivity extends AppCompatActivity {
@@ -75,6 +76,8 @@ public class AnimalDetailsActivity extends AppCompatActivity {
                 Intent intents = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
 
                 startActivity(intents);
+
+                Toast.makeText(AnimalDetailsActivity.this, "Going to the webpage...", Toast.LENGTH_LONG).show();
 
 
             }
