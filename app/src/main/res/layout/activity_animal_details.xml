@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#87CEEB"
+    android:background="#6A9ED9"
     android:orientation="vertical">
 
 
@@ -14,19 +14,28 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/tvTitleDisplay"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="22sp"
+                android:layout_marginTop="24sp"
+                android:layout_marginBottom="36sp"
                 android:fontFamily="sans-serif-black"
                 android:gravity="center"
                 android:text="@string/facts_about_the_animal"
                 android:textColor="#000000"
                 android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:layout_marginBottom="28sp"
+                android:contentDescription="@string/images"
+                tools:srcCompat="@tools:sample/avatars" />
 
             <TextView
                 android:id="@+id/tvDisplay"
@@ -34,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15sp"
                 android:layout_marginLeft="15sp"
-                android:layout_marginBottom="20sp"
+                android:layout_marginBottom="26sp"
                 android:hint="@string/display_information"
                 android:textColor="#000000"
                 android:textSize="20sp"
@@ -44,16 +53,20 @@
                 android:id="@+id/btnLinkPage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20sp"
-                android:background="#03A9F4"
-                android:text="@string/click_here_for_more_information" />
+                android:layout_marginBottom="25sp"
+                android:background="#22769C"
+                android:text="@string/click_here_for_more_information"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnHomeButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#E11E1E"
-                android:text="@string/back_to_home_page" />
+                android:background="#3F51B5"
+                android:text="@string/back_to_home_page"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
         </LinearLayout>
     </ScrollView>
 

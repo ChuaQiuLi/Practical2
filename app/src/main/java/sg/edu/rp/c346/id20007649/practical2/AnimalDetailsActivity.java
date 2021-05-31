@@ -11,6 +11,7 @@ import android.view.ContextMenu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,6 +21,7 @@ public class AnimalDetailsActivity extends AppCompatActivity {
     TextView tvDisplay;
     Button btnHomePage;
     Button btnLinkPage;
+    ImageView pictures;
 
 
     @Override
@@ -30,6 +32,7 @@ public class AnimalDetailsActivity extends AppCompatActivity {
         tvDisplay = findViewById(R.id.tvDisplay);
         btnHomePage = findViewById(R.id.btnHomeButton);
         btnLinkPage = findViewById(R.id.btnLinkPage);
+        pictures = findViewById(R.id.image);
 
         registerForContextMenu(tvDisplay);
 
@@ -43,6 +46,7 @@ public class AnimalDetailsActivity extends AppCompatActivity {
         String information = intentReceived.getStringExtra("information");
         String link = intentReceived.getStringExtra("link");
         String url = intentReceived.getStringExtra("url");
+        int image =intentReceived.getIntExtra("picture",0);
 
 
 
@@ -52,7 +56,8 @@ public class AnimalDetailsActivity extends AppCompatActivity {
         display += "\nDescription : " + description;
         display += "\nLifespan : " + lifespan;
         display += "\nInformation : " + information;
-        display += "\nFor more information : " + link;
+        display += "\n" + link; 
+        pictures.setImageResource(image);
 
 
         tvDisplay.setText(display);
